@@ -1,0 +1,206 @@
+
+html{
+    font-size: 16px;
+}
+body{
+    margin: 0;
+    color: #035755;
+}
+
+button{
+    background:transparent;
+    border: none;
+}
+
+.section{
+    margin-top: 13rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+p{
+    font-family: 'Dosis', sans-serif;
+    color: #4B4F51
+}
+
+.nav{
+    font-size: 1.25rem;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    text-transform: uppercase;
+    font-weight: 700; 
+    transition: all 0.3s; 
+    text-emphasis: none;
+    text-decoration: none;
+    color: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+.logo:hover{
+    color:  #FF383D;
+    text-decoration: none;
+}
+.logo img{
+    margin-right: 0.3rem;
+    display: inline-block;
+    width: 4rem;
+}
+
+.nav-links, .nav-links ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;        
+}
+
+
+.menu-links a{
+    text-decoration: none;
+    margin-right: 2.5rem;
+    color: inherit;
+    transition: all ease 0.3s;
+    position: relative;
+}
+
+.menu-links a:hover{
+    color:#FF383D;
+     
+}
+
+.menu-links a::after{
+    content: '';
+    width: 0rem;
+    height: 0rem;
+    background: #FF383D;
+    position: absolute;
+    top: -49%;
+    left: 45%;
+    margin-top: 2.5rem;
+    border-radius: 50%;
+    display: inline-block;
+    transition: all 0.2s ;
+}
+
+.menu-links a:hover::after{
+    width: 0.35rem;
+    height: 0.35rem;
+}
+
+
+.contact-btn a{
+border: solid 2px;
+border-radius:2rem ;
+padding: 0.8rem 1.8rem;
+font-family: inherit;
+text-decoration: none;
+color:#FF383D;
+transition: all ease 0.3s;
+}
+
+.contact-btn a:hover{
+    border: solid 2px;
+    color: #fff;
+    background:#FF383D;
+    }
+
+.main-offer{
+    position: relative;
+}
+
+.main-pic{
+    position: absolute;
+    top: -50%;
+    right: -9rem;
+    height: 36rem;
+}
+
+.h3-text{
+    color:#FF383D;
+    font-size: 1.5rem;
+    line-height: 124%;
+    
+}
+
+.main-offer_text h1{
+    font-size: 2.5rem;
+    line-height: 130%;  
+}
+
+.p-text{
+    font-size: 1.2rem;
+    line-height: 190%; 
+    margin: 1.5rem 0; 
+}
+
+.offer-btn {
+    border: solid 2px;
+    border-radius:2rem ;
+    padding: 1rem 2rem;
+    font-family: inherit;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    color: #fff;
+    background:#FF383D;
+    font-weight: 700;
+    }
+    
+ .offer-btn:hover{
+    color:#FF383D;
+    background:transparent;
+    border: solid 2px;
+ }
+
+ .about img{
+    width: 105%;
+    margin-top: -7rem;
+    margin-left: -8rem
+ }
+
+ .more-info-btn {
+    border-radius:2rem ;
+    padding: 0.7rem 1.6rem;
+    font-family: inherit;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    background:rgba(250, 86, 82, 0.15);;
+    color:#FF383D;
+    font-weight: 700;
+    }
+    
+ .more-info-btn:hover{
+    color:#FF383D;
+    background:transparent;
+    border: solid 2px;
+ }
+
+ .h2-text{
+     font-size: 2rem;
+     line-height: 120%;
+ }
+
+ .symtoms-title{
+     text-align: center;
+     margin-top: -5rem;
+ }
+
+ .symptoms-group{
+     display: flex;
+
+ }
+
+ .symptom-card{
+     margin-right: 1.5rem;
+     box-shadow: 0px 5px 80px rgba(0, 0, 0, 0.08);
+     border-radius: 10px;
+     
+   
+ }
+
+ 
