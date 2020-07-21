@@ -5,7 +5,12 @@ html{
 body{
     margin: 0;
     color: #035755;
+    background-color: #fffbfb;
     
+}
+
+input{
+    border:none
 }
 
 button{
@@ -306,4 +311,74 @@ flex-wrap: nowrap;
     transform: translate(-50%, -50%);
     z-index: -1;
 }
+
+.form{
+    margin-top: 7rem;
+}
+
+.form-body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form-body p{
+    color:#17724c;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.form-body form{
+    position: relative;
+    width: 30rem;
+    align-self: center;
+    margin-top: 2rem;
+}
+
+.form-body form input{
+    display: inline-block;
+    width:100%;
+    padding: 1.5rem;
+    border-radius:50px;
+    box-shadow: 0px 8px 80px rgba(0, 0, 0, 0.06);
+    
+}
+
+.form-body form a{
+    position: absolute;
+    right: 30px; 
+    top: 50%;
+    transform: translateY(-50%);   
+}
+
+.btn-3{
+    font-weight: normal;
+    padding: 1rem 2rem;
+}
+
+.form-body form input:focus{
+    border: 2px solid #FF383D;
+}
  
+.nav-footer{
+font-size: 1.25rem;
+margin: 3rem 0;
+ 
+}
+.footer-links ul{
+   display: flex;
+   align-items: center;
+   padding: 0;
+    
+}
+
+.footer-links ul li:not(:last-child){
+margin-right: 1rem;   
+ }
+
+ .icons i {
+     font-size: 40px;
+     color:black
+ }
